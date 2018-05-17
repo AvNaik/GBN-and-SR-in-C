@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX_DATASIZE	receiver.c	9;"	d	file:
+segment_packet	receiver.c	/^struct segment_packet {$/;"	s	file:
+seq_no	receiver.c	/^	int seq_no;$/;"	m	struct:segment_packet	file:
+checksum	receiver.c	/^	int checksum;$/;"	m	struct:segment_packet	file:
+data	receiver.c	/^	char data[512];$/;"	m	struct:segment_packet	file:
+calc_checksum	receiver.c	/^uint16_t calc_checksum(struct segment_packet recvd_packet) {$/;"	f
+verify_checksum	receiver.c	/^uint8_t verify_checksum(struct segment_packet recvd_packet ) {$/;"	f
+main	receiver.c	/^int main(int argc, char *argv[]) {$/;"	f
